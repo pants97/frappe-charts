@@ -8,14 +8,6 @@ export const COMPATIBLE_CHARTS = {
 	heatmap: []
 };
 
-export const DATA_COLOR_DIVISIONS = {
-	bar: 'datasets',
-	line: 'datasets',
-	pie: 'labels',
-	percentage: 'labels',
-	heatmap: HEATMAP_DISTRIBUTION_SIZE
-};
-
 export const BASE_MEASURES = {
 	margins: {
 		top: 10,
@@ -79,6 +71,14 @@ export const PERCENTAGE_BAR_DEFAULT_DEPTH = 2;
 // Fixed 5-color theme,
 // More colors are difficult to parse visually
 export const HEATMAP_DISTRIBUTION_SIZE = 5;
+
+export const DATA_COLOR_DIVISIONS = {
+	bar: 'datasets',
+	line: 'datasets',
+	pie: 'labels',
+	percentage: 'labels',
+	heatmap: HEATMAP_DISTRIBUTION_SIZE
+};
 
 export const HEATMAP_SQUARE_SIZE = 10;
 export const HEATMAP_GUTTER_SIZE = 2;
