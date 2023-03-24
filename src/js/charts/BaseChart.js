@@ -174,8 +174,8 @@ export default class BaseChart {
 	}
 
 	makeChartArea() {
-		if(this.svg) {
-			this.container.removeChild(this.svg);
+		if(this.svg && this.svg.parentNode) {
+			this.svg.parentNode.removeChild(this.svg);
 		}
 		let m = this.measures;
 
